@@ -9,7 +9,7 @@ Before training the model, data preprocessing was performed to handle missing va
 # Handling Missing Values:
 
 The dataset contained missing values in the "Total_Stops" column, which were imputed using the most frequent category based on the route.
- # Feature Engineering:
+ #Feature Engineering:
 
 Journey date, departure time, and arrival time were extracted into separate numerical features (month, day, hour, minute).
 The "Duration" column was transformed into separate hour and minute features.
