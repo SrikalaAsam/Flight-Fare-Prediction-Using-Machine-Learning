@@ -6,16 +6,15 @@ This project focuses on predicting flight ticket prices using machine learning t
 # Data Preprocessing
 Before training the model, data preprocessing was performed to handle missing values, transform categorical features, and extract relevant information.
 
-# Handling Missing Values:
-
+1. Handling Missing Values:
 The dataset contained missing values in the "Total_Stops" column, which were imputed using the most frequent category based on the route.
- #Feature Engineering:
 
+2. Feature Engineering:
 Journey date, departure time, and arrival time were extracted into separate numerical features (month, day, hour, minute).
 The "Duration" column was transformed into separate hour and minute features.
 Categorical variables such as airline, source, and destination were encoded using Label Encoding.
-# Feature Transformation:
 
+3. Feature Transformation:
 The "Total_Stops" feature was converted from text format (e.g., "non-stop", "2 stops") into numerical values for model compatibility.
 
 # Model Selection and Training
